@@ -1,0 +1,55 @@
+.card-preview {
+    border-radius: 8px;
+    box-shadow: 0 0 5px 1px #555;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+
+    @media (max-width: 480px) {
+        & {
+            padding: 10px;
+            margin: 10px;
+        }
+    }
+
+    img {
+        width: 160px;
+        opacity: 0;
+
+        @media (max-width: 480px) {
+            & {
+                width: 120px;
+            }
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 6px 2px #333;
+    }
+
+    &.flipped {
+        img {
+            opacity: 1;
+        }
+    }
+
+    &.done {
+        background-color: #ffa62b;
+        img {
+            opacity: 1;
+        }
+    }
+
+    &:not(.done):not(.flipped):before {
+        content: "?";
+        position: absolute;
+        font-size: 50px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: .5;
+    }
+}
+
