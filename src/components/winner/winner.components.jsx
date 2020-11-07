@@ -6,8 +6,6 @@ import './winner.styles.scss';
 const Winner = () => (
     <div className="winner">
          <span>You win!</span>
-
-         <Link to={`/`}> New game</Link>
     </div>
 )
 
