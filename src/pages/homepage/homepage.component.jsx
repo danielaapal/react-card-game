@@ -8,7 +8,7 @@ const HomePage = () => (
     <div className="homepage">
         <h1>Choose a game</h1>
         
-        <Link to='/game'>
+        <Link to='/react-card-game/game'>
             <div className="card-game">
                 <img src={GameGarden} />
                 <span>Card Game - Garden</span>
