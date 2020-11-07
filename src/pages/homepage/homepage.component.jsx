@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import GameGarden  from '../../assets/garden/flower.png';
 import './homepage.styles.scss';
 
 const HomePage = () => (
@@ -9,7 +10,7 @@ const HomePage = () => (
         
         <Link to='/game'>
             <div className="card-game">
-                <img src='../../assets/garden/flower.png'/>
+                <img src={GameGarden} />
                 <span>Card Game - Garden</span>
             </div>
         </Link>

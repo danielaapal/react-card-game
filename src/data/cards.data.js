@@ -2,7 +2,7 @@ export const garden = [
     {
         id: 1,
         name: 'apple-tree',
-        image: 'apple-tree.png'
+        image: 'apple-tree.png',
     },{
         id: 2,
         name: 'bee',
