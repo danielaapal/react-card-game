@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-card-game/static/css/main.d4683306.chunk.css",
-    "main.js": "/react-card-game/static/js/main.92337a41.chunk.js",
-    "main.js.map": "/react-card-game/static/js/main.92337a41.chunk.js.map",
+    "main.js": "/react-card-game/static/js/main.236dd6ec.chunk.js",
+    "main.js.map": "/react-card-game/static/js/main.236dd6ec.chunk.js.map",
     "runtime-main.js": "/react-card-game/static/js/runtime-main.402bcc51.js",
     "runtime-main.js.map": "/react-card-game/static/js/runtime-main.402bcc51.js.map",
     "static/js/2.0bd07696.chunk.js": "/react-card-game/static/js/2.0bd07696.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.402bcc51.js",
     "static/js/2.0bd07696.chunk.js",
     "static/css/main.d4683306.chunk.css",
-    "static/js/main.92337a41.chunk.js"
+    "static/js/main.236dd6ec.chunk.js"
   ]
 }
