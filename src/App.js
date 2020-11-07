@@ -17,7 +17,7 @@ class App extends React.Component {
       <div className="App">
           <Switch>
             <Route exact path='/react-card-game/' component={HomePage} />
-            <Route path='/game' component={Game} />
+            <Route path='/react-card-game/game' component={Game} />
           </Switch>
       </div>
     );
